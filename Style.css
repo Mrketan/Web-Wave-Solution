@@ -866,12 +866,15 @@ h1 {
 
 /* Responsive Design */
 /* Responsive Image Size */
+/* Responsive Design: Single Column Layout on Mobile */
 @media (max-width: 768px) {
-    .project-card img {
-        height: 250px; /* Adjust for smaller screens */
+    .project-card {
+        width: 100%; /* Make each project card take up full width on small screens */
     }
-}
 
+    .project-card img {
+        height: 250px; /* Adjust image height for smaller screens */
+    }
 
     .project-card h2 {
         font-size: 1.6em;
@@ -885,6 +888,8 @@ h1 {
         font-size: 0.95em;
         padding: 10px 20px;
     }
+}
+
 
 
 /* Gradient Background */
